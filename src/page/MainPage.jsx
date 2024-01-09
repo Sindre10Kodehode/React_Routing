@@ -1,0 +1,13 @@
+
+
+
+export const MainPage = () => {
+
+  return(
+    <>
+  
+
+
+    </>
+  );
+};

@@ -15,6 +15,8 @@ export const ToDos = () => {
     fetchTodo();
   }, []);
 
+
+
   return <>
         <section className="flex flex-col items-center bg-slate-200">
         <h1 className="mt-8 text-2xl">
@@ -39,7 +41,7 @@ export const ToDos = () => {
               <span className="font-bold">Name of item: </span> {post.title}
             </h1>
             <p>
-              <span className="font-bold">COMPLETED? </span> {post.completed}
+              <span className="font-bold">COMPLETED? </span> {post.completed ? "❌" : "✔️"}
             </p>
           </div>
         ))}

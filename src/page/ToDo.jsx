@@ -20,7 +20,7 @@ export const ToDos = () => {
         <h1 className="mt-8 text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>
-        <p>Her har du en liste av "Gjøremål" hentet fra jsonplaceholder.</p>
+        <p>Her har du en liste av "Gjøremål" hentet fra jsonplaceholder. Jeg har begrenset det til 50</p>
 
         {data.map((post) => (
           <div

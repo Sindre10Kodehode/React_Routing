@@ -1,4 +1,4 @@
-// This is the header component with navbar that should be used instead of the header tag in App.jsx
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 export const Header = () => {

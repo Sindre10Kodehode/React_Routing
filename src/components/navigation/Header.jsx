@@ -10,7 +10,11 @@ export const Header = () => {
           alt=""
           className="h-20 pl-2"
         />
-        <h1 className="text-4xl">Sindre Tofte Giske</h1>
+        
+          <img src="/src/assets/react.svg" className="animate-spin-slow" />
+          <h1 className="p-8 text-4xl font-medium">Dette er en nettside laget med REACT</h1>
+          <img src="/src/assets/react.svg" className="animate-spin-slow" />
+        
 
         <nav className="flex justify-end gap-4 p-2 pl-4 pr-4 bg-teal-500 rounded-full">
           <Link to="/">Home</Link>

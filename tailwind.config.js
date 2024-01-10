@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 32s linear infinite',
+        'spin-slow': 'spin 24s linear infinite',
       },
       fontFamily: {
         Ubuntu: [ 'Ubuntu', "sans-serif"]

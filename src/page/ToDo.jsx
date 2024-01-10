@@ -16,11 +16,11 @@ export const ToDos = () => {
   }, []);
 
   return <>
-        <section className="flex flex-col items-center bg-slate-200">
+        <section className="flex flex-col items-center bg-slate-200 font-Ubuntu">
         <h1 className="mt-8 text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>
-        <p>Her har du en liste av "kommentarer" hentet fra jsonplaceholder.</p>
+        <p>Her har du en liste av "Gjøremål" hentet fra jsonplaceholder.</p>
 
         {data.map((post) => (
           <div
@@ -28,13 +28,13 @@ export const ToDos = () => {
             key={post.id}
           >
             <h1 className="text-xl">
-              <span className="font-bold">To Do List Number: </span> {post.id}
+              <span className="font-bold">Mål nummer: </span> {post.id}
             </h1>
             <h1 className="text-xl">
-              <span className="font-bold">To Do: </span> {post.title}
+              <span className="font-bold">Gjøremål: </span> {post.title}
             </h1>
             <p>
-              <span className="font-bold">STATUS: </span> {post.completed ? "Unfinished ❌" : "Finished ✔️"}
+              <span className="font-bold">Status: </span> {post.completed ? "Ikke ferdig ❌" : "Ferdig ✔️"}
             </p>
           </div>
         ))}

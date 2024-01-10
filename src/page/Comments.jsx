@@ -17,7 +17,7 @@ export const CommentsPage = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center bg-slate-200">
+      <section className="flex flex-col items-center font-Ubuntu bg-slate-200">
         <h1 className="mt-8 text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>
@@ -34,13 +34,13 @@ export const CommentsPage = () => {
             key={post.id}
           >
             <h1 className="text-xl">
-              <span className="font-bold">NAME:</span> {post.name}
+              <span className="font-bold">Navn:</span> {post.name}
             </h1>
             <h1 className="text-xl">
-              <span className="font-bold">EMAIL:</span> {post.email}
+              <span className="font-bold">Epost:</span> {post.email}
             </h1>
             <p>
-              <span className="font-bold">COMMENT:</span> {post.body}.
+              <span className="font-bold">Kommentar:</span> {post.body}.
             </p>
           </div>
         ))}

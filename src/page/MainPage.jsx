@@ -2,9 +2,9 @@ export const MainPage = () => {
   return (
     <>
       <section className="flex flex-col items-center p-10 bg-slate-200">
-        <div className="flex font-medium">
-          <h1 className="p-4 text-2xl">Hvordan siden er laget; Home</h1>
-        </div>
+        <h1 className="p-4 text-2xl font-medium">
+          Hvordan siden er laget; Home
+        </h1>
         <div className="flex p-4">
           <img
             src="/public/Screenshot from 2024-01-10 19-36-33.png"

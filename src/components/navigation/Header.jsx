@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
-      <header className="flex items-center justify-between pl-4 pr-4 bg-teal-600 font-Ubuntu">
+      <header className="flex items-center justify-between pl-4 pr-4 bg-teal-600">
         <img
           src="/public/metranspback.png"
           alt=""

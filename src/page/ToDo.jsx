@@ -16,7 +16,7 @@ export const ToDos = () => {
   }, []);
 
   return <>
-        <section className="flex flex-col items-center bg-slate-200 font-Ubuntu">
+        <section className="flex flex-col items-center bg-slate-200">
         <h1 className="mt-8 text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>

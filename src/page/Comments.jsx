@@ -17,17 +17,11 @@ export const CommentsPage = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center font-Ubuntu bg-slate-200">
+      <section className="flex flex-col items-center bg-slate-200">
         <h1 className="mt-8 text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>
         <p>Her har du en liste av "kommentarer" hentet fra jsonplaceholder.</p>
-        {/* <input
-          id="comSearch"
-          type="search"
-          placeholder="Search Here!"
-          className="pl-4 m-4 border-2 rounded-xl"
-        /> */}
         {data.map((post) => (
           <div
             className="flex flex-col justify-center w-3/5 p-4 m-8 rounded-2xl bg-slate-300"

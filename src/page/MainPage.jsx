@@ -21,8 +21,7 @@ export const MainPage = () => {
               prosjektet for å fordype mine ferdigheter i Tailwind.
             </p>
             <p className="max-w-md p-4 text-lg">
-              For å få REACT logoene til å spinne så sakte som jeg ville de
-              skulle lagde jeg en egen class for det i Tailwind cofig filen til
+              For å få REACT logoene til å spinne i den hastigheten jeg følte mest passende for lagde jeg en egen class for det i Tailwind cofig filen til
               denne siden. Jeg ville få de til å rotere for å få litt bevegelse
               på siden, men var aktivt bevist på å gjøre effekten sakte for at
               det ikke skal være distraherende.

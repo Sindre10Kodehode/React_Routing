@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <>
       <header className="flex items-center justify-between pl-4 pr-4 bg-teal-600">
-        <img src="/public/metranspback.png" className="h-20 pl-2" />
+        <img src="/metranspback.png" className="h-20 pl-2" />
         <img src="/src/assets/react.svg" className="animate-spin-slow h-14" />
         <h1 className="p-8 text-4xl font-medium">
           Dette er en nettside laget med REACT

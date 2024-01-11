@@ -10,7 +10,7 @@ export default {
         'spin-slow': 'spin 24s linear infinite',
       },
       fontFamily: {
-        Ubuntu: [ 'Ubuntu', "sans-serif"]
+       
       }
     },
   },

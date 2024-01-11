@@ -1,13 +1,13 @@
 export const MainPage = () => {
   return (
     <>
-      <section className="flex flex-col items-center p-10 bg-slate-200">
+      <main className="flex flex-col items-center p-10 bg-slate-200">
         <h1 className="p-4 text-2xl font-medium">
-          Hvordan siden er laget; Home
+          Hvordan siden er laget; Tailwind
         </h1>
-        <div className="flex p-4">
+        <section className="flex p-4">
           <img
-            src="/public/Screenshot from 2024-01-10 19-36-33.png"
+            src="/public/Screenshot from 2024-01-11 09-11-31.png"
             className="p-4"
           />
           <div>
@@ -29,9 +29,15 @@ export const MainPage = () => {
               det ikke skal være distraherende.
             </p>
           </div>
-        </div>
-        <div></div>
-      </section>
+        </section>
+          <h1 className="p-4 text-2xl font-medium">
+          Kommentarer og Gjøremål;
+        </h1>
+        <h1 className="text-xl font-medium ">
+        Async Await, UseEffect, UseState
+        </h1>
+        
+      </main>
     </>
   );
 };

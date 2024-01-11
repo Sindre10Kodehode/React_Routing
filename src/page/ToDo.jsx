@@ -34,10 +34,12 @@ export const ToDos = () => {
               <span className="font-bold">Gjøremål: </span> {post.title}
             </h1>
             <p>
-              <span className="font-bold">Status: </span> {post.completed ? "Ikke ferdig ❌" : "Ferdig ✔️"}
+              <span className="font-bold">Status: </span> {post.completed ? "Ferdig ✔️" : "Ikke ferdig ❌"}
             </p>
           </div>
         ))}
       </section>
       </>;
 };
+
+

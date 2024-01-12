@@ -6,7 +6,7 @@ export const MainPage = () => {
       <PageLayOut>
         <h1 className="text-2xl font-medium">Hvordan siden er laget;</h1>
         <h1 className="pb-4 text-3xl font-medium">Tailwind</h1>
-        <section className="flex p-8 rounded-3xl bg-slate-300">
+        <section className="flex p-8 mb-12 rounded-3xl bg-slate-300">
           <img
             src="/Screenshot from 2024-01-11 09-11-31.png"
             className="p-4 rounded-3xl"

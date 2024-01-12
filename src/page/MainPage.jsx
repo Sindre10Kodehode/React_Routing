@@ -69,6 +69,7 @@ export const MainPage = () => {
             className="p-4 rounded-3xl"
           />
         </section>
+        
       </PageLayOut>
     </>
   );

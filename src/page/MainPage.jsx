@@ -1,7 +1,9 @@
+import { PageLayOut, Pstyle } from "../components/navigation/utils/Utilities";
+
 export const MainPage = () => {
   return (
     <>
-      <main className="flex flex-col items-center p-10 bg-slate-200">
+      <PageLayOut>
         <h1 className="text-2xl font-medium">Hvordan siden er laget;</h1>
         <h1 className="pb-4 text-3xl font-medium">Tailwind</h1>
         <section className="flex p-8 rounded-3xl bg-slate-300">
@@ -10,7 +12,7 @@ export const MainPage = () => {
             className="p-4 rounded-3xl"
           />
           <div>
-            <p className="max-w-md p-4 text-lg">
+            <Pstyle>
               For dette prosjektet bestemte jeg meg for å gjøre all styling med
               Tailwind. Det er ett inline styling verktøy som gjør at du kan
               style alt via classNames i HTML koden, som regel forkortelser av
@@ -19,13 +21,13 @@ export const MainPage = () => {
               Tailwind for det lette, vanilla CSS for det mer avanserte. Jeg
               bestemte meg for å gjøre all styling med Tailwind i dette
               prosjektet for å fordype mine ferdigheter i Tailwind.
-            </p>
-            <p className="max-w-md p-4 text-lg">
+            </Pstyle>
+            <Pstyle>
               For å få REACT logoene til å spinne i den hastigheten jeg følte mest passende for lagde jeg en egen class for det i Tailwind cofig filen til
               denne siden. Jeg ville få de til å rotere for å få litt bevegelse
               på siden, men var aktivt bevist på å gjøre effekten sakte for at
               det ikke skal være distraherende.
-            </p>
+            </Pstyle>
           </div>
         </section>
 
@@ -35,39 +37,39 @@ export const MainPage = () => {
         </h1>
         <section className="flex p-8 rounded-3xl bg-slate-300">
           <div>
-            <p className="max-w-md p-4 text-lg">
+            <Pstyle>
               På undersidene Kommentarer og Gjøremål har jeg gjort mer eller
               mindre det samme på begge. Jeg har hentet inn informasjon fra
               JSONPlaceholder siden. Jeg hentet forskjellige resurser for hver
               av sidene, men logikken er nesten helt lik. På dette bildet ser du
               all koden som er til for å både lage og style Gjøremål siden.
-            </p>
-            <p className="max-w-md p-4 text-lg">
+            </Pstyle>
+            <Pstyle>
               Her har jeg brukt en relativt boilerplate async funksjon for
               fetching av data ved bruk av Json filer hentet fra nettet. Denne
               er satt inn i en useEffect for å bare kjøre når siden blir
               aktivert.
-            </p>
-            <p className="max-w-md p-4 text-lg">
+            </Pstyle>
+            <Pstyle>
               Informasjonen som blir hentet ut fra Json filen blir inført i HTML
               via Data.map funksjonen som starter på linje 25. Den er laget sånn
               at det blir laget en div med 2 H1 tags og en P tag, hvor respektiv
               data blir innført. Det som skiller seg mest ut med Gjøremål siden
               ovenfor Kommentar siden er at det ikke bare er text values som
               blir hentet fra JSON filen, men også en Boolean verdi.
-            </p>
-            <p className="max-w-md p-4 text-lg">
+            </Pstyle>
+            <Pstyle>
               Denne Boolean verdien er håndtert i en enkel funskjon på linje 37
               hvor den innfører text jeg bestemmer utifra om verdien er TRUE
               eller FALSE.
-            </p>
+            </Pstyle>
           </div>
           <img
             src="/Screenshot from 2024-01-11 13-07-19.png"
             className="p-4 rounded-3xl"
           />
         </section>
-      </main>
+      </PageLayOut>
     </>
   );
 };

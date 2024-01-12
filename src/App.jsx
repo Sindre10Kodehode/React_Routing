@@ -4,6 +4,7 @@ import { MainPage } from "./page/MainPage";
 import { CommentsPage } from "./page/Comments";
 import { Header } from "./components/navigation/Header";
 import { ToDos } from "./page/ToDo";
+import { Footer } from "./components/navigation/Footer";
 function App() {
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
           <Route path="/Comments" element={<CommentsPage />} />
           <Route path="/ToDo" element={<ToDos />} />
         </Routes>
-        {/* <footer>this is the footer</footer> */}
+        <Footer/>
       </Router>
     </>
   );

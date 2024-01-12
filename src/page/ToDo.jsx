@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { PageLayOut } from "../components/navigation/utils/Utilities";
 
 export const ToDos = () => {
   const [data, setData] = useState([]);
@@ -16,8 +17,8 @@ export const ToDos = () => {
   }, []);
 
   return <>
-        <section className="flex flex-col items-center bg-slate-200">
-        <h1 className="mt-8 text-2xl">
+        <PageLayOut>
+        <h1 className="text-2xl">
           På denne siden har jeg fetchet data fra en API.
         </h1>
         <p>Her har du en liste av "Gjøremål" hentet fra jsonplaceholder. </p>
@@ -38,7 +39,7 @@ export const ToDos = () => {
             </p>
           </div>
         ))}
-      </section>
+      </PageLayOut>
       </>;
 };
 
